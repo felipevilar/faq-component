@@ -8,12 +8,11 @@
     font-family: 'KumbhSans';
     font-weight: bold;
 } */
-@font-face {
-  src: url(/fonts/KumbhSans-Regular.ttf) format("truetype");
-  font-family: 'KumbhSans';
-  font-weight: normal;
-}
-
+/* @font-face {
+    src: url(/fonts/KumbhSans-Regular.ttf) format('truetype');
+    font-family: 'KumbhSans';
+    font-weight: normal;
+} */
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
