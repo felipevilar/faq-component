@@ -1,0 +1,27 @@
+@import 'card/left-content';
+@import 'card/right-content';
+
+.main {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  position: relative;
+  width: 888px;
+  height: 493px;
+  margin: 0 45px;
+
+  .container {
+    display: flex;
+    height: 100%;
+    border-radius: 25px;
+    background-color: white;
+    overflow: hidden;
+
+    @include left-content;
+
+    @include right-content;
+  }
+}
