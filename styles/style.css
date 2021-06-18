@@ -65,6 +65,8 @@ html, body {
   border-radius: 25px;
   background-color: white;
   overflow: hidden;
+  -webkit-box-shadow: 10px 10px 20px 4px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 20px 4px rgba(0, 0, 0, 0.2);
 }
 
 .card .container .left {
