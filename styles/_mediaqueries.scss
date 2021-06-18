@@ -1,0 +1,43 @@
+@import 'card/helper';
+
+@media only screen and (max-width: 880px) {
+  .card {
+    height: unset;
+    margin: 0 20px;
+
+    .woman-mobile {
+        @include align-helper;
+        left: 46%;
+        top: -2%;
+      }
+      .woman-shadow-mobile {
+        @include align-helper;
+        left: 50%;
+        top: 45px;
+      }
+      
+      .woman {
+        display: none;
+      }
+      .box {
+        display: none;
+      }
+
+      .container .left {
+        width: unset;
+        height: unset;
+      }
+      .container .right {
+        width: unset;
+        height: unset;
+        margin-top: 10rem;
+        margin-right: 2rem;
+        margin-bottom: 3rem;
+        margin-left: 2rem;
+      }
+      .container .right h1 {
+        text-align: center;
+      }
+
+  }
+}

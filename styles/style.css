@@ -48,9 +48,13 @@ html, body {
 
 .card {
   position: relative;
-  width: 888px;
+  display: block;
   height: 493px;
   margin: 0 45px;
+}
+
+.card .woman-mobile, .card .woman-shadow-mobile {
+  display: none;
 }
 
 .card .container {
@@ -77,6 +81,10 @@ html, body {
   position: relative;
   top: 50px;
   left: -85px;
+  width: 472px;
+  height: 359px;
+  background-image: url(".././images/illustration-woman-online-desktop.svg");
+  background-repeat: no-repeat;
 }
 
 .card .container .left .box {
@@ -178,5 +186,65 @@ html, body {
   border-bottom: 1px solid #e7e7e9;
   margin-bottom: 10px;
   width: 105%;
+}
+
+@media only screen and (max-width: 880px) {
+  .card {
+    height: unset;
+    margin: 0 20px;
+  }
+  .card .woman-mobile {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 46%;
+    top: -2%;
+  }
+  .card .woman-shadow-mobile {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    left: 50%;
+    top: 45px;
+  }
+  .card .woman {
+    display: none;
+  }
+  .card .box {
+    display: none;
+  }
+  .card .container .left {
+    width: unset;
+    height: unset;
+  }
+  .card .container .right {
+    width: unset;
+    height: unset;
+    margin-top: 10rem;
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+  }
+  .card .container .right h1 {
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=style.css.map */

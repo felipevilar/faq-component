@@ -1,0 +1,8 @@
+@mixin align-helper {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}

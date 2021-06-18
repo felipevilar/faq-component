@@ -9,9 +9,13 @@
 }
 .card {
   position: relative;
-  width: 888px;
+  display: block;
   height: 493px;
   margin: 0 45px;
+
+  .woman-mobile, .woman-shadow-mobile {
+    display: none;
+  }
 
   .container {
     display: flex;
@@ -19,6 +23,7 @@
     border-radius: 25px;
     background-color: white;
     overflow: hidden;
+
 
     @include left-content;
 
