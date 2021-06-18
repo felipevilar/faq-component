@@ -189,6 +189,9 @@ html, body {
 }
 
 @media only screen and (max-width: 880px) {
+  body {
+    margin-top: 30px;
+  }
   .card {
     height: unset;
     margin: 0 20px;
